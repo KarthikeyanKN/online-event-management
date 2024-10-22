@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Online User Registration</title>
+	<link rel="stylesheet" type="text/css" href="event.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+</head>
+<body>
+	<nav>
+		<label>Event Management System</label>
+			<ul>
+				
+				<a href="event.html"><i class="fa fa-home"></i> Home</a>
+				<a href="book.html"><i class="fa fa-book"></i> Book An Event</a>
+				<a href="valunteer.html"><i class="fa fa-users"></i> Volunteer</a>
+				
+				<a href="contact.html"><i class="fa fa-address-book"></i> Contact Us</a>
+				<a href="login.html"><i class="fa fa-user-circle"></i></a>
+			</ul>
+	</nav>
+	
+	<marquee>Hello Everyone. Welcome to Event Management. Here we will organize your Event for you as your Requirments !!!</marquee>
+	<br><br>
+	<div align="center" class="bookFrm">
+    <form action="usereg.php" method="POST" class="form2" id="form">
+    <h1 class="title" align="center" bgcolor="red">Online Registration</h1>
+	<div class="inputContainer">
+	<label class="label">First name</label>
+	<input type="text" name="fName" placeholder="First name" class="input" required>
+   </div>
+   <br>
+   <div class="inputContainer">
+	<label class="label">Last name</label>
+	<input type="text" name="lName" placeholder="Last name" class="input">
+   </div>
+   <br>
+   <div class="inputContainer">
+	<label class="label">DOB</label>
+	<input type="date" name="dob" placeholder="DOB" class="input" required>
+   </div>
+   <br>
+   <div class="inputContainer">
+    <input type="textarea" class="input" placeholder="Ex:Tenkasi" name="city" id="city" required>
+    <label for="" class="label">City</label>
+   </div>
+   <br>
+   <div class="inputContainer">
+	<label class="label">Location</label>
+	<input type="text" name="location" placeholder="Enter Link or Name" class="input" required>
+   </div>
+   <br>
+   <div class="inputContainer">
+	<label class="label">Phone number</label>
+	<input type="number" name="pno" placeholder="Mobile no" class="input" required>
+   </div>
+	<br>
+	<div class="inputContainer">
+	<label class="label">Event</label>
+	<select name="event" class="input" required>
+		<option value="Birthday">Birthday</option>
+		<option value="Wedding">Wedding</option>
+		<option value="Cocerts">Concerts</option>
+		<option value="Meeting">Meeting</option>
+		<option value="Others">Others</option>
+	</select>
+   </div>
+	<br>
+	<div class="inputContainer">
+	<label class="label">Mention Event</label>
+	<input type="text" name="event2" placeholder="If Others Mention" class="input">
+   </div>
+	<br>
+	<div class="inputContainer">
+	<label class="label">Requirements</label>
+	<textarea class="input" name="requirements"></textarea>
+   </div>
+   <input type="submit" name="submit" class="submitBtn">
+   <br>
+</div>
+</form>
+<br>
+<br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br>
+<footer align="center" class="foo">
+    	&copy 2023.All Rights Reserved.
+    	<hr>
+    	
+    	while using this site,you agree to have read and accepted our<br> <u>terms of use,cookie and privacy policy</u>. 
+    	<br>
+    	<br>
+
+    	<a href="https://instagram.com/karthikeyan_tp?igshid=YmMyMTA2M2Y="><i class="fa-brands fa-instagram"></i> Karthikeyan_tp</a>
+    	<a href="https://github.com/Karthik50344/Karthik50344.git"><i class="fa-brands fa-github"></i> Karthikeyan</a>
+    </footer>
+</body>
+</html>

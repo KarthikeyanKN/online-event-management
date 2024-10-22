@@ -1,0 +1,270 @@
+img{
+	width: 75%;
+	align-content: center;
+	border-radius: 10px;
+}
+.feed{
+  color: skyblue;
+  background-color: #333;
+  border-radius: 10px;
+  border-style: double;
+}
+
+nav{
+			background-color: #333;
+			color: skyblue;
+			border-radius: 10px;
+			height: 75px;
+			border-style: double;
+}
+ul a{
+			text-decoration: none;
+			color: skyblue;
+			margin-right: 20px;
+			}
+label{
+	line-height: 70px;
+	font-weight: bold;
+	font-size: 30px;
+}
+
+.events{	
+	/*background-color: #333;
+	color: skyblue;
+	border-radius: 10px;
+	padding-top: 5px;
+	border-style: double;
+	float: right;
+	text-align: justify-all;
+	border: 2px solid skyblue;
+	width: 250px;
+	height: 275px;
+  position: relative;
+  top:50px;*/
+
+  position: absolute;
+  right: 0;
+  top: 25%;
+  width: 250px;
+  height: 275px;
+  border: 2px double skyblue;
+  background-color: #333;
+  color: skyblue;
+  border-radius: 10px;
+
+}
+
+nav ul {
+
+	float: right;
+	display: inline-block;
+	margin: 0 2px;
+	line-height: 70px;
+
+}
+a:hover{
+	background-color: whitesmoke;
+			cursor: pointer;
+			color: black;
+}
+
+
+marquee{
+			border-style: double;
+			background-color: #333;
+			color: skyblue;
+			border-radius: 10px;
+}
+footer{
+	background-color: #333;
+	color: skyblue;
+	width: 100%;
+	height: ;
+	border-radius: 10px;
+}
+main{
+	height: 50%;
+}
+a{
+	text-decoration: none;
+	color: skyblue;
+}
+
+.foo{
+	/*margin-top: 100px;*/
+	width: 100%;
+}
+
+.signupFrm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 125vh;
+}
+.loginFrm{
+	display: ;
+  justify-content: center;
+  align-items: center;
+  height: 125vh;
+}
+.bookFrm{
+  display: ;
+  justify-content: center;
+  align-items: center;
+  height: 125vh;
+  width: 75vh;
+}
+.form1 {
+  margin-left: 325px;
+  background-color: white;
+  width: 400px;
+  border-radius: 8px;
+  padding: 20px 40px;
+  box-shadow: 0 10px 25px rgba(92, 99, 105, .2);
+}
+.form2 {
+  margin-left: 325px;
+  background-color: white;
+  width: 400px;
+  border-radius: 8px;
+  padding: 20px 40px;
+  box-shadow: 0 10px 25px rgba(92, 99, 105, .2);
+}
+.form {
+  background-color: white;
+  width: 400px;
+  border-radius: 8px;
+  padding: 20px 40px;
+  box-shadow: 0 10px 25px rgba(92, 99, 105, .2);
+}
+
+.title {
+  font-size: 50px;
+  margin-bottom: 50px;
+  color: skyblue;
+
+}
+.inputContainer {
+  position: relative;
+  height: 45px;
+  width: 90%;
+  margin-bottom: 17px;
+}
+.input {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 100%;
+  border: 1px solid #DADCE0;
+  border-radius: 7px;
+  font-size: 16px;
+  padding: 0 20px;
+  outline: none;
+  background: none;
+  z-index: 1;
+}
+
+/* Hide the placeholder texts (a) */
+
+::placeholder {
+  color: #DADCE0;
+}
+.label {
+  position: absolute;
+  top: -40px;
+  left: -40px;
+  padding: 0 40px;
+  color: skyblue;
+  font-size: 16px;
+  transition: 0.5s;
+  z-index: 0;
+}
+.submitBtn {
+  display: block;
+  margin-left: auto;
+  padding: 15px 30px;
+  border: none;
+  background-color: purple;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 30px;
+}
+
+.submitBtn:hover {
+  background-color: #9867C5;
+  transform: translateY(-2px);
+}
+.input:focus + .label {
+  top: -40px;
+  left: -40px;
+  z-index: 10;
+  font-size: 14px;
+  font-weight: 60;
+  color: purple;
+}
+.input:focus {
+  border: 2px solid purple;
+}
+.sign{
+	font-size: 25px;
+}
+img{
+  height: 350px;
+
+  border-radius: 2px;
+
+}
+.dataretrieve{
+  letter-spacing: 1px;
+  padding:10px;
+  /*height: 350px;*/
+  border-radius: 10px;
+  border:5px double skyblue;
+  background-color: #333;
+  color: skyblue;
+  border-style: double;
+}
+.btn{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  /*position: relative;
+  right:50%;
+  transform: translate(-50%,-50%);*/
+}
+
+.form1 .inputContainer p{
+    margin-left: -140px;
+}
+
+
+table,tr,th,td{
+  border-radius: 10px;
+  border:2px double skyblue;
+  align-items: center;
+  background-color: #333;
+  color: skyblue;
+}
+th{
+  background-color: red;
+}
+
+
+table{
+  width: 100%;
+}
+
+
+.button1{
+  background-color: #4caf50;
+  border-radius: 12px;
+}
+
+.button2{
+  background-color: #f44336;
+  border-radius: 12px;
+}
